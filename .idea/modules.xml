@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/cl_search_monitor.iml" filepath="$PROJECT_DIR$/.idea/cl_search_monitor.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/cltracker.iml" filepath="$PROJECT_DIR$/.idea/cltracker.iml" />
     </modules>
   </component>
 </project>
