@@ -73,11 +73,10 @@ if len(results_collector) > 0:
 
     import smtplib
 
-    # The below code never changes, though obviously those variables need values.
     session = smtplib.SMTP('smtp.gmail.com', 587)
     session.ehlo()
     session.starttls()
-    session.login('vincent.engelmann1', 'PeaceIsInternal')
+    session.login('vincent.engelmann1', 'someHashedThing')
 
     headers = "\r\n".join(["from: " + 'vincent.engelmann1',
                        "subject: " + 'New Entries in CL for search across {0}'.format(' '.join(search_zips)),
